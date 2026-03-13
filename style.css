@@ -1,0 +1,83 @@
+body {
+  z-index: 1;
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(0, 0, 0);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#icon {
+  width: 50px;
+}
+
+#links {
+  padding-right: 10px;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #433e53;
+  color: #ffffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.noticias {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #433e53;
+  padding: 10px;
+  margin: 40px;
+  border-radius: 20px;
+}
+
+.noticia {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  border-radius: 15px;
+}
+
+.img_noticia {
+  object-fit: cover;
+  width: 300px;
+  height: 200px;
+  border-radius: 6px;
+}
+
+footer {
+  background-color: #433e53;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#escalacao {
+  background-color: #433e53;
+  color: white;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.jogador {
+  color: white;
+  padding: 6px;
+  border-radius: 10px;
+  width: 112px;
+  border-radius: 50%;
+}
+
+.jogador img {
+  border-radius: 50%;
+}
+#gif {
+  position: fixed;
+  width: 150;
+  right: 0;
+  bottom: 0;
+}
