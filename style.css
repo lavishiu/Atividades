@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.fundo {
+    background-color: #ff943d;
+    width: 660px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.roxo {
+    background-color: #783dff;
+    padding: 80px;
+    margin: 10px;
+}
+
+.alongar {
+    padding-right: 280px;
+}
+
+.abaixar {
+    padding-bottom: 280px;
+}
+
+.alongaresquer {
+    padding-left: 280px;
+}
+
+.subir {
+    padding-top: 280px;
+}
