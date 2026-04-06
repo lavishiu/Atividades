@@ -1,0 +1,88 @@
+<!doctype html>
+<!-- Declara o tipo do documento. Diz ao navegador para interpretar como HTML5. -->
+
+<html lang="pt-br">
+  <!-- Elemento raiz do documento HTML.
+     lang="pt-br" informa o idioma principal (Português do Brasil), ajudando acessibilidade e busca. -->
+
+  <head>
+    <!-- “Cabeça” do documento: configurações e metadados.
+       O que fica aqui normalmente não aparece na página (exceto o título da aba). -->
+
+    <meta charset="utf-8" />
+    <!-- Define a codificação de caracteres como UTF-8.
+         Isso evita problemas com acentos e caracteres especiais (ç, ã, é...). -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Ajusta a visualização em celulares/tablets.
+         width=device-width: usa a largura real da tela.
+         initial-scale=1: inicia com zoom padrão. -->
+
+    <title>Aula 01 - HTML Básico</title>
+    <!-- Define o título da aba do navegador e o título que aparece ao salvar nos favoritos. -->
+  </head>
+
+  <body>
+    <!-- Corpo do documento: tudo que aparece para o usuário na página fica dentro do body. -->
+
+    <header>
+      <!-- Cabeçalho da página (ou de uma seção). Geralmente contém título, logo e navegação. -->
+
+      <h1>Meu site</h1>
+      <!-- Título principal da página.
+           É o mais importante na hierarquia de títulos (h1 > h2 > h3...).
+           Normalmente deve existir 1 h1 por página. -->
+
+      <nav>
+        <!-- Área de navegação. Agrupa links que levam para partes do site ou páginas diferentes. -->
+
+        <a href="#">Inicio</a>
+        <!-- Link (âncora). href é o destino do link.
+             href="#" é um “destino falso” (usa-se como exemplo/teste).
+             Em um site real, seria algo como href="index.html" ou href="#secao". -->
+
+        <a href="">Sobre</a>
+        <!-- Outro link. href="" (vazio) normalmente recarrega a página atual.
+             Para exemplo didático, funciona, mas em projetos reais é melhor apontar para um destino válido. -->
+
+        <a href="">Contato</a>
+        <!-- Mais um link. Mesmo comportamento do href vazio.
+             Em um site real, poderia ser href="contato.html" ou href="#contato". -->
+      </nav>
+    </header>
+
+    <main>
+      <!-- Conteúdo principal da página. Deve conter o que é “o foco” do site.
+         Ajuda na organização semântica (melhora leitura e acessibilidade). -->
+
+      <section>
+        <!-- Seção do conteúdo. Agrupa um bloco temático relacionado.
+           Geralmente uma section tem um título (h2, h3...). -->
+
+        <h2>Subtítulo</h2>
+        <!-- Subtítulo da seção. h2 é o próximo nível abaixo do h1. -->
+
+        <p>Exemplo de uso de parágrafo.</p>
+        <!-- Parágrafo. Usado para textos em blocos, explicações, descrições. -->
+      </section>
+
+      <section>
+        <!-- Outra seção do conteúdo. Aqui foi usada para separar a parte de imagem. -->
+
+        <img src="gato.jpg" alt="Imagem de um gato" width="400" />
+        <!-- Imagem.
+             src: caminho do arquivo da imagem (aqui, "cachorro.jpg" precisa estar na mesma pasta do HTML).
+             alt: texto alternativo (essencial para acessibilidade e para quando a imagem não carrega).
+             width: largura da imagem (em pixels, quando só width é usado). -->
+      </section>
+    </main>
+
+    <footer>
+      <!-- Rodapé da página. Geralmente contém autoria, direitos, links finais, contato, etc. -->
+
+      <p>&copy; Criado em 2026</p>
+      <!-- Parágrafo no rodapé.
+           &copy; é uma entidade HTML que mostra o símbolo ©. -->
+    </footer>
+  </body>
+</html>
