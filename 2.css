@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: beige;
+}
+
+.fundo {
+    width: 2000px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.flex {
+    display: flex;
+}
+.block{
+    display: block;
+}
+
+
+section {
+    display: flex;
+}
+
+.esquerda {
+    display: flex;
+    width: 59%;
+    margin: 1%;
+    background-color: #d4eaff;
+    justify-content: space-around;
+    border-radius: 10px;
+    height: 300px;
+}
+
+.direita {
+    width: 28%;
+    margin: 1%;
+    background-color:  #d4eaff;
+    color: #0131c0;
+    font-family: "Arial";
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+#robo-logo{
+    width: 15%;
+    margin-top: 40px;
+}
+#robo-logo img{
+    width: 100%;
+}
+#bem-vindo{
+    width: 25%;
+    color: #0131c0;
+    font-family: "Arial";
+    margin-top: 20px;
+}
+
+#menu{
+    width: 25%;
+    margin-top: 20px;
+}
+#compras{
+    width: 100%;
+    margin: 1%;
+    margin-top: 20px;
+    color: #0131c0;
+    font-family: "Arial";
+    margin-right: 40px;
+    display: flex;
+    justify-content: left;
+}
+#produtos img{
+    justify-content: center;
+}
+.blocos{
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    border-radius: 15px;
+    height: 180px;
+    display: block;
+    margin-bottom: 10px;
+    width: 160px;
+    margin: 5px;
+    justify-content: center;
+}
+
+
+button {
+    background: #0131c0;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 40px;
+    display: block;
+    margin-bottom: 10px;
+    width: 300px;
+}
+button1 {
+    background: #0131c0;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 45px;
+    display: block;
+    margin-bottom: 10px;
+    width: 140px;
+}
+.bloco {
+    background: #0c7c0c;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    height: 30px;
+    display: flex;
+    margin-bottom: 10px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.bloco2 {
+    background: #cfc318;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    height: 30px;
+    display: flex;
+    margin-bottom: 10px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.bloco3 {
+    background: #960909;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    height: 30px;
+    display: flex;
+    margin-bottom: 10px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover {
+    background: #0131c0;
+}
+
+.linha {
+    width: 100%;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 45px;
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.linha2 {
+    width: 100%;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    height: 40px;
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.linha3 {
+    width: 100%;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 70px;
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.linha4 {
+    width: 100%;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 55px;
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
